@@ -331,7 +331,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 1rem;
-  font-family:sans-serif;
+  font-family: Gungsuhche;
   font-weight: 700;
   line-height: 1.5;
   color: #a9885d; }
@@ -354,8 +354,8 @@ h5, .h5 {
 h6, .h6 {
   font-size: 1rem; }
 p {
-  font-size: 2.5rem;
-  font-family: sans-serif;
+  font-size: 2rem;
+  font-family: Gungsuhche;
   font-weight: 500;
 }
 
@@ -1226,6 +1226,7 @@ pre {
     margin-left: 83.33333%; }
   .offset-xl-11 {
     margin-left: 91.66667%; } }
+
 
 .table {
   width: 100%;
@@ -3035,7 +3036,9 @@ input[type="button"].minus{
   position: absolute;
   width: 100%;
   z-index:10;
-  background-image: linear-gradient(-180deg ,#d69a19 , #a46d00) !important;  
+  /* background-image: linear-gradient(-180deg ,#d69a19 , #a46d00) !important;   */
+  /* opacity: 0.3; */
+  background: transparent;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -7682,7 +7685,8 @@ body {
 }
 .bg-about {
   background-color:inherit;
-  background-image: linear-gradient(180deg ,#d69a19 , #a46d00) !important;
+  /* background-image: linear-gradient(180deg ,#d69a19 , #a46d00, #d69a19) !important; */
+   background: radial-gradient(circle, #d69a19, #a46d00) !important;
   /* background-image: url('../img/1.jpg'); */
   background-size:100% 100%;
   /* background by SVGBackgrounds.com */
@@ -7694,6 +7698,9 @@ body {
   display: block;
 }
 
+.logo {
+  background: radial-gradient(circle, #d69a19, #a46d00) !important;
+}
 
 .bg-about .container {
   z-index: 2;
@@ -7840,9 +7847,9 @@ footer h5 {
   line-height: 40px;
   right: -100px;
   color: #ffffff;
-  background-color: rgba(29, 233, 182, 0.5); }
+  background-color: gold; }
   .scroll-top:hover {
-    background-color: #1de9b6;
+    background-color: goldenrod;
     transition: all .4s ease-in-out; }
   .scroll-top.active {
     right: 20px; }
@@ -8043,6 +8050,10 @@ footer h5 {
   src: url(./fonts/Sevillana-Regular.ttf);
 }
 
+@font-face {
+  font-family: goldman-sachs;
+  src: url(./fonts/Goldman-Regular.ttf);
+}
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 body {
