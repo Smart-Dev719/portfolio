@@ -7694,9 +7694,15 @@ body {
   display: block;
 }
 
+
 .bg-about .container {
   z-index: 2;
   position:relative;
+}
+
+footer {  
+  background-image: linear-gradient(180deg ,#d69a19 , #a46d00) !important;
+  color: white;
 }
 
 .bg-contact {
