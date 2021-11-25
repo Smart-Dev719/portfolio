@@ -5804,7 +5804,9 @@ button.bg-dark:focus {
 .mt-6,
 .my-6 {
   margin-top: 6rem !important; }
-
+.mt-13,
+.my-13 {
+  margin-top: 13rem !important; }
 .mr-6,
 .mx-6 {
   margin-right: 6rem !important; }
@@ -7660,6 +7662,9 @@ body {
 }
 .vh-30 {
   height: 30vh;
+}
+.vh-50 {
+  height: 50vh;
 }
 
 @media (min-width: 576px) {
