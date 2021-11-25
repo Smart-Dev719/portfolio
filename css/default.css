@@ -340,7 +340,7 @@ h1, .h1 {
   font-size: 5rem; }
 
 h2, .h2 {
-  font-size: 4.5rem; }
+  font-size: 3.8rem; }
 
 h3, .h3 {
   font-size: 1.5rem; }
@@ -5806,7 +5806,7 @@ button.bg-dark:focus {
   margin-top: 6rem !important; }
 .mt-20,
 .my-20 {
-  margin-top: 20rem !important; }
+  margin-top: 17rem !important; }
 .mr-6,
 .mx-6 {
   margin-right: 6rem !important; }
@@ -7483,7 +7483,7 @@ body {
   border-color: #000000; }
 
 .small-xl {
-  font-size: 90%; }
+  font-size: 70%; }
 
 .img-faded {
   opacity: .5; }
@@ -7609,7 +7609,20 @@ body {
     .section-angle.bottom-right:after, .section-angle.top-right:before {
       border-bottom-width: 1rem; }
     .section-angle.bottom-left:after, .section-angle.top-left:before {
-      border-top-width: 1rem; } }
+      border-top-width: 1rem; } 
+      p {font-size: 1.5rem;}
+      .mt-20{
+        margin-top: 12rem;
+      } 
+      .mb-6 { margin-bottom: 5rem;}
+      h2 {font-size: 2.5rem;}
+      .vh-70 {
+        height: 50vh;
+      }
+      .vh-100 {
+        height: 80vh;
+      }
+    }
 
 /*smart scrolling*/
 .smart-scroll {
